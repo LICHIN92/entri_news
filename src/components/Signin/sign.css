@@ -1,0 +1,26 @@
+.signin-container {
+    height: 70vh;
+    background-color: rgb(204, 134, 42);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 1rem;
+}
+
+.signin {
+    /* background-color: aqua; */
+    height: 50%;
+    padding: 5px;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.signin form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}

@@ -1,0 +1,13 @@
+.sign{
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100vw;
+height:100vh ;
+}
+
+.second{
+    /* background-color: rgb(210, 30, 210); */
+    width: 50%;
+    text-align: center;
+}
