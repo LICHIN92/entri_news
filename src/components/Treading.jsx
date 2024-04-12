@@ -58,7 +58,7 @@ const Treading = () => {
                     </div>
                     <div className='card-info'>
                         <h2>{country.name}</h2>
-                        <p>Population: {country.population}</p>
+                        <p>Population: <span>{country.population.toLocaleString()}</span> </p>
                         <p>Region: {country.region}</p>
                         <p>Capital: {country.capital}</p>
                     </div>

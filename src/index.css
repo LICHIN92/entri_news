@@ -35,7 +35,7 @@ a{
 }
 
 .navbar{
-    background-color: brown;
+    /* background-color: brown; */
     width: 100vw;
     position: relative;
     display:flex;
@@ -259,6 +259,15 @@ label #btn,label #cancel{
         left: 0;
     }
 }
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 1rem;
+    /* background-color: brown; */
+}
+/* .card-flag-container{
+
+} */
 .card-flag-container{
     height: 50%;
     align-items: center;
@@ -271,15 +280,15 @@ label #btn,label #cancel{
 }
 .card-info{
     font-family:' Inter';
-    padding: 10rem;
+    padding: 1.5rem;
     line-height: 1rem;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     height: 50%;
     height: 50%;
 }
 .card-info h2{
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 
 }
 .card-info p{
@@ -288,5 +297,6 @@ label #btn,label #cancel{
 }
 .card{
     border-radius: 7px;
-    box-shadow: 0 4px 7px rgba(0,0,0,0);
+    background-color: #f0eaea;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }

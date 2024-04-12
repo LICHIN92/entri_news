@@ -1,6 +1,15 @@
-input{
-    min-height:30px ;
-    min-width: 3rem;
-    border-radius: 2px;
-    
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-transform: capitalize;
+}
+
+.input-container input {
+    min-height: 30px;
+    min-width: 12rem;
+    border-radius: 5px;
+    outline: none; 
+    border: 1px solid blue;
+    padding-inline-start: 2px;
 }

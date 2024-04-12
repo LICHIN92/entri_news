@@ -1,15 +1,15 @@
-.signup,.signup form{
+.signup,.signup {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
     padding-block: 25px;
-    background-color: aquamarine;
+    background-color: rgb(38, 119, 92);
 }
 span{
-    color: blue;
-    text-decoration: underline;
+    color: rgb(7, 7, 146);
+    /* text-decoration: underline; */
     font-style: italic;
     cursor: pointer;
 }
